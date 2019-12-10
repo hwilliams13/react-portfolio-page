@@ -3,47 +3,47 @@
   "name": "Create React App Sample",
   "icons": [
     {
-      "src": "/favicons/212121/favicon212121_256.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_256.ico",
       "sizes": "256",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicons/212121/favicon212121_128.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_128.ico",
       "sizes": "128",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicons/212121/favicon212121_64.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_64.ico",
       "sizes": "64",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicons/212121/favicon212121_48.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_48.ico",
       "sizes": "48",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicons/212121/favicon212121_32.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_32.ico",
       "sizes": "32",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicons/212121/favicon212121_24.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_24.ico",
       "sizes": "24",
       "type": "image/x-icon"
     },
     {
-      "src": "/favicons/212121/favicon212121_16.ico",
+      "src": "/favicons/b71c1c/faviconb71c1c_16.ico",
       "sizes": "16",
       "type": "image/x-icon"
     },
     {
-      "src": "Logo212121_transbg192.png",
+      "src": "Logob71c1c_transbg192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "Logo212121_transbg512.png",
+      "src": "Logob71c1c_transbg512.png",
       "type": "image/png",
       "sizes": "512x512"
     }

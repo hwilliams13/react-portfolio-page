@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -19,4 +19,46 @@
 
 .App-link {
   color: #09d3ac;
+} */
+
+header {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 70px;
+}
+
+#header-logo {
+  width: 64px;
+  height: 64px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-evenly;
+  color: #b71c1c;
+}
+
+.nav-button {
+  width: 100px;
+  height: 40px;
+  border: solid 2px #b71c1c;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.placeholder {
+  height: 70px;
+  width: 100%;
+}
+
+main {
+  width: 50px;
+  height: 2000px;
+  background-color: grey;
 }
