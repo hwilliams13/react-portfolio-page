@@ -44,9 +44,17 @@ function App() {
         </nav>
       </header>
       <main>
-        <br className="placeholder"/>
-        <section id>
-
+        <section id="about">
+          <div className="placeholder"></div>
+          <div className="section-body">
+            <div className="section-header">
+              <h1>Digital Engineer | Atypical Nerd | Sports Lover</h1>
+              <p>From Legos to lines of code, blocks are blocks and I love to build</p>
+            </div>
+            <div>
+              <p>I've always had a passion for creating. My love for Legos led to my degree in Mechanical Engineering. Seeing friends enjoying their switch into software sparked my interest in building in the digital world. Hearing of the better work-life balance sealed the deal and now I look forward to my future as a developer.</p>
+            </div>
+          </div>
         </section>
       </main>
     </div>
