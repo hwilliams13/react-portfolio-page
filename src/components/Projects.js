@@ -1,6 +1,8 @@
 import React from 'react';
 
 import simonGameSS from '../simon_game_ss_640.png';
+import rambleGameSS from '../ramble_game_ss_640.png';
+
 import css3 from '../icons/css3.svg';
 import firebase from '../icons/firebase.svg';
 import git from '../icons/git.svg';
@@ -67,6 +69,34 @@ class Projects extends React.Component {
                             <div className="skill-section">
                                 <p>Skills Demonstrated:</p>
                                 <ul className="skill-list">
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={html5} />
+                                        <p>   HTML5</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={css3} />
+                                        <p>   CSS3</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={javaScript} />
+                                        <p>   JavaScript</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={git} />
+                                        <p>   Git</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a>
+                        <a className="project-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
+                            <img src={rambleGameSS} alt="Avatar" style={{width: "400px", height: "auto"}} />
+                            <div className="skill-section">
+                                <p>Skills Demonstrated:</p>
+                                <ul className="skill-list">
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={html5} />
+                                        <p>   HTML5</p>
+                                    </li>
                                     <li className="skill-container">
                                         <img className="skill-icon" src={html5} />
                                         <p>   HTML5</p>
