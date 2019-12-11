@@ -65,7 +65,7 @@ class Projects extends React.Component {
                                     </div>
                                 </div>
                             </div> */}
-                            <img src={simonGameSS} alt="Avatar" style={{width: "400px", height: "auto"}} />
+                            <img src={simonGameSS} alt="Avatar" style={{width: "auto", height: "400px"}} />
                             <div className="skill-section">
                                 <p>Skills Demonstrated:</p>
                                 <ul className="skill-list">
@@ -88,14 +88,22 @@ class Projects extends React.Component {
                                 </ul>
                             </div>
                         </a>
-                        <a className="project-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
-                            <img src={rambleGameSS} alt="Avatar" style={{width: "400px", height: "auto"}} />
+                        <a className="project-container" rel="noopener noreferrer" href="https://play-ramble.herokuapp.com/" target="_blank">
+                            <img src={rambleGameSS} alt="Avatar" style={{width: "auto", height: "400px"}} />
                             <div className="skill-section">
                                 <p>Skills Demonstrated:</p>
                                 <ul className="skill-list">
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={html5} />
-                                        <p>   HTML5</p>
+                                        <img className="skill-icon" src={reactIcon} />
+                                        <p>   React</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={node} />
+                                        <p>   Node</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={mongoDB} />
+                                        <p>   MongoDB</p>
                                     </li>
                                     <li className="skill-container">
                                         <img className="skill-icon" src={html5} />
@@ -116,6 +124,43 @@ class Projects extends React.Component {
                                 </ul>
                             </div>
                         </a>
+                        <br />
+                        {/* <a className="project-container" rel="noopener noreferrer" href="https://play-ramble.herokuapp.com/" target="_blank">
+                            <img src={rambleGameSS} alt="Avatar" style={{width: "auto", height: "400px"}} />
+                            <div className="skill-section">
+                                <p>Skills Demonstrated:</p>
+                                <ul className="skill-list">
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={reactIcon} />
+                                        <p>   React</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={node} />
+                                        <p>   Node</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={mongoDB} />
+                                        <p>   MongoDB</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={html5} />
+                                        <p>   HTML5</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={css3} />
+                                        <p>   CSS3</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={javaScript} />
+                                        <p>   JavaScript</p>
+                                    </li>
+                                    <li className="skill-container">
+                                        <img className="skill-icon" src={git} />
+                                        <p>   Git</p>
+                                    </li>
+                                </ul>
+                            </div>
+                        </a> */}
                         {/* <div id="about-full">
                             <p>I've always had a passion for creating. My love for Legos led to my degree in Mechanical Engineering. Seeing friends enjoying their switch into software sparked my interest in building in the digital world. Hearing of the better work-life balance sealed the deal and now I look forward to my future as a developer.</p>
                         </div> */}

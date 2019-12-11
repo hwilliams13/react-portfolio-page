@@ -63,6 +63,10 @@
 
   .skill-section {
       width: 400px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      justify-content: flex-start;
   }
 
   .skill-icon {
@@ -74,6 +78,7 @@
       width: 100%;
       display: flex;
       justify-content: center;
+      flex-wrap: wrap;
   }
 
   .skill-container {
