@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+// import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import logo from './Logob71c1c_transbg640.svg';
 import profilePic from './profile_pic.jpg';
@@ -8,7 +8,9 @@ import gitHub from './icons/github.svg';
 import gMail from './icons/gmail.svg';
 import './App.css';
 
-import MainPage from './components/MainPage.js';
+// import MainPage from './components/MainPage.js'; MainPage component not really necessary
+import About from './components/About.js';
+import Projects from './components/Projects.js';
 
 class App extends React.Component {
 
@@ -28,35 +30,48 @@ class App extends React.Component {
 
   render() {
     return (
-      // <div className="App">
-      //   <header className="App-header">
-      //     <img src={logo} className="App-logo" alt="logo" />
-      //     <p>
-      //       Edit <code>src/App.js</code> and save to reload.
-      //     </p>
-      //     <a
-      //       className="App-link"
-      //       href="https://reactjs.org"
-      //       target="_blank"
-      //       rel="noopener noreferrer"
-      //     >
-      //       Learn React
-      //     </a>
-      //   </header>
-      // </div>
-      <Router>
-        <Switch>
-          <Route exact path="/">
-            <MainPage 
-              logo={logo}
-              profilePic={profilePic}
-              linkedIn={linkedIn}
-              gitHub={gitHub}
-              gMail={gMail}
-              currentDate={this.state.currentYear}/>
-          </Route>
-        </Switch>
-      </Router>
+      // <MainPage 
+      //   logo={logo}
+      //   profilePic={profilePic}
+      //   linkedIn={linkedIn}
+      //   gitHub={gitHub}
+      //   gMail={gMail}
+      //   currentYear={this.state.currentYear}/>
+      <div>
+        <header>
+            <img id="header-logo" src={logo} alt="logo" />
+            <nav>
+                {/* <a href="#about"> going to use scrollIntoView() */}
+                    <div className="nav-button">ABOUT</div>
+                {/* </a> */}
+                <a href="#projects">
+                    <div className="nav-button">PROJECTS</div>
+                </a>
+                <a href="#about">
+                    <div className="nav-button">THANKS</div>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <About 
+                profilePic={profilePic}/>
+            <Projects />
+        </main>
+        <footer>
+            <small><span>&copy;</span>{this.state.currentYear} Harold Lee Williams</small>
+            <div id="footer-contact-info">
+                <a rel="noopener noreferrer" href="http://www.linkedin.com/in/harold-williams-3b208132" target="_blank">
+                    <img className="footer-contact-icon" src={linkedIn} alt="LinkedIn Logo" />
+                </a>
+                <a rel="noopener noreferrer" href="https://github.com/hwilliams13" target="_blank">
+                    <img className="footer-contact-icon" src={gitHub} alt="GitHub Logo" />
+                </a>
+                <a href="mailto: harold.williams.87@gmail.com">
+                    <img className="footer-contact-icon" src={gMail} alt="Gmail Logo" />
+                </a>
+            </div>
+        </footer>
+      </div>
     );
   }
 }

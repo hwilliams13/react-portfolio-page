@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 import About from './About.js';
 import Projects from './Projects.js';
@@ -10,13 +10,11 @@ class MainPage extends React.Component {
         return (
             <div>
                 <header>
-                    <Link to="/">
-                        <img id="header-logo" src={this.props.logo} alt="logo" />
-                    </Link>
+                    <img id="header-logo" src={this.props.logo} alt="logo" />
                     <nav>
-                        <a href="#about">
+                        {/* <a href="#about"> going to use scrollIntoView() */}
                             <div className="nav-button">ABOUT</div>
-                        </a>
+                        {/* </a> */}
                         <a href="#projects">
                             <div className="nav-button">PROJECTS</div>
                         </a>
