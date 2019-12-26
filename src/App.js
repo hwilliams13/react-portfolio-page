@@ -24,6 +24,17 @@ class App extends React.Component {
     this.setState({currentYear: currentYear})
   }
 
+  jumpToSection = (e) => {
+    const targetId = e.target.innerHTML.toLowerCase();
+    const element = document.getElementById(targetId);
+    console.log(targetId);
+    element.scrollIntoView(
+      {
+        behavior: 'smooth',
+      }
+    );
+  }
+
   componentDidMount() {
     this.getCurrentYear();
   }
@@ -42,11 +53,11 @@ class App extends React.Component {
             <img id="header-logo" src={logo} alt="logo" />
             <nav>
                 {/* <a href="#about"> going to use scrollIntoView() */}
-                    <div className="nav-button">ABOUT</div>
+                    <div className="nav-button" onClick={this.jumpToSection}>ABOUT</div>
                 {/* </a> */}
-                <a href="#projects">
-                    <div className="nav-button">PROJECTS</div>
-                </a>
+                {/* <a href="#projects"> */}
+                    <div className="nav-button" onClick={this.jumpToSection}>PROJECTS</div>
+                {/* </a> */}
                 <a href="#about">
                     <div className="nav-button">THANKS</div>
                 </a>

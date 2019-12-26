@@ -65,24 +65,24 @@ class Projects extends React.Component {
                                     </div>
                                 </div>
                             </div> */}
-                            <img src={simonGameSS} alt="Avatar" style={{width: "auto", height: "400px"}} />
+                            <img src={simonGameSS} alt="Simon Snapshot" style={{width: "auto", height: "400px"}} />
                             <div className="skill-section">
                                 <p>Skills Demonstrated:</p>
                                 <ul className="skill-list">
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={html5} />
+                                        <img className="skill-icon" src={html5} alt="HTML5 icon" />
                                         <p>   HTML5</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={css3} />
+                                        <img className="skill-icon" src={css3} alt="CSS3 icon" />
                                         <p>   CSS3</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={javaScript} />
+                                        <img className="skill-icon" src={javaScript} alt="Javascript icon" />
                                         <p>   JavaScript</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={git} />
+                                        <img className="skill-icon" src={git} alt="Git icon" />
                                         <p>   Git</p>
                                     </li>
                                 </ul>
@@ -94,31 +94,31 @@ class Projects extends React.Component {
                                 <p>Skills Demonstrated:</p>
                                 <ul className="skill-list">
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={reactIcon} />
+                                        <img className="skill-icon" src={reactIcon} alt="React JS icon" />
                                         <p>   React</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={node} />
+                                        <img className="skill-icon" src={node} alt="Node JS icon" />
                                         <p>   Node</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={mongoDB} />
+                                        <img className="skill-icon" src={mongoDB} alt="MongoDB icon" />
                                         <p>   MongoDB</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={html5} />
+                                        <img className="skill-icon" src={html5} alt="HTML5 icon" />
                                         <p>   HTML5</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={css3} />
+                                        <img className="skill-icon" src={css3} alt="CSS3 icon" />
                                         <p>   CSS3</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={javaScript} />
+                                        <img className="skill-icon" src={javaScript} alt="Javascript icon" />
                                         <p>   JavaScript</p>
                                     </li>
                                     <li className="skill-container">
-                                        <img className="skill-icon" src={git} />
+                                        <img className="skill-icon" src={git} alt="Git icon" />
                                         <p>   Git</p>
                                     </li>
                                 </ul>

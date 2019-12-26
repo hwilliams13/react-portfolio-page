@@ -12,7 +12,7 @@ class About extends React.Component {
                         <p id="blurb-2">From Legos to lines of code, blocks are blocks and I love to build</p>
                     </div>
                     <div id="about-profile-pic-section">
-                        <img id="profile-pic" src={this.props.profilePic} />
+                        <img id="profile-pic" src={this.props.profilePic} alt="Harold Williams Portrait"/>
                         <p>Hi! I'm Harold!</p>
                     </div>
                     <div id="about-full">
