@@ -31,7 +31,7 @@ class Projects extends React.Component {
                     </div>
                     <div id="projects-pic-section">
                         <a className="project-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
-                            <img className="project-pic" src={simonGameSS} alt="Simon Snapshot" style={{width: "auto", height: "400px"}} />
+                            <img className="project-pic" src={simonGameSS} alt="Simon Snapshot" />
                             <div className="project-info">
                                 <div className="skill-section">
                                     <p>Tech</p>
@@ -58,7 +58,7 @@ class Projects extends React.Component {
                                     <p>About</p>
                                     <br />
                                     <p>
-                                        Simon emulator with 3 dificulty modes
+                                        Simon simulator with 3 dificulty modes
                                         <br />
                                         Tracks user score within session
                                         <br />
@@ -68,7 +68,7 @@ class Projects extends React.Component {
                             </div>
                         </a>
                         <a className="project-container" rel="noopener noreferrer" href="https://play-ramble.herokuapp.com/" target="_blank">
-                            <img className="project-pic" src={rambleGameSS} alt="Avatar" style={{width: "auto", height: "400px"}} />
+                            <img className="project-pic" src={rambleGameSS} alt="Avatar" />
                             <div className="project-info">
                                 <div className="skill-section">
                                     <p>Tech</p>
@@ -107,11 +107,10 @@ class Projects extends React.Component {
                                     <p>About</p>
                                     <br />
                                     <p>
-                                        Simon emulator with 3 dificulty modes
+                                        2 player Scrabble Emulator
                                         <br />
-                                        Tracks user score within session
+                                        All game information 
                                         <br />
-                                        Can play with the TYGH keys
                                     </p>
                                 </div>
                             </div>

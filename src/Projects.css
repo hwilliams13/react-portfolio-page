@@ -57,37 +57,43 @@
     width: 80%;
   } */
 
-  .project-container {
-      color: #212121;
-      width: 450px;
-      height: 450px;
-  }
+.project-container {
+    color: #212121;
+    width: 450px;
+    height: 450px;
+}
 
-  .project-pic {
+.project-pic {
     width: 450px;
     height: 300px;
-  }
+}
 
-  .project-info {
-      width: 450px;
-      height: 150px;
-      display: flex;
-      justify-content: space-between;
-  }
+.project-info {
+    width: 450px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
 
-  .skill-section {
-    
-  }
+.skill-section {
+    width: 100px;
+}
 
-  .skill-icon {
-      height: 24px;
-      width: auto;
-  }
+.skill-icon {
+    height: 24px;
+    width: auto;
+}
 
-  .skill-list {
-      width: 20%;
-  }
+.skill-list {
+    width: 100%;
+}
 
-  .skill-container {
-      margin: 0 10px;
-  }
+.skill-container {
+  /* margin: 0 10px; */
+    width: 100%;
+    display: flex;
+}
+
+.project-about-section {
+    width: 350px;
+}
