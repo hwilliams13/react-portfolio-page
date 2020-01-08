@@ -31,10 +31,21 @@ class Projects extends React.Component {
                     </div>
                     <div id="projects-pic-section">
                         <a className="project-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
+                            <p className="project-title">SIMON</p>
                             <img className="project-pic" src={simonGameSS} alt="Simon Snapshot" />
                             <div className="project-info">
+                                <div className="project-about-section">
+                                    <br />
+                                    <p className="project blurb">
+                                        Simon simulator with 3 dificulty modes
+                                        <br />
+                                        Tracks user score within session
+                                        <br />
+                                        Can play with the TYGH keys
+                                    </p>
+                                </div>
                                 <div className="skill-section">
-                                    <p>Tech</p>
+                                    <br />
                                     <ul className="skill-list">
                                         <li className="skill-container">
                                             <img className="skill-icon" src={html5} alt="HTML5 icon" />
@@ -54,24 +65,23 @@ class Projects extends React.Component {
                                         </li>
                                     </ul>
                                 </div>
-                                <div className="project-about-section">
-                                    <p>About</p>
-                                    <br />
-                                    <p>
-                                        Simon simulator with 3 dificulty modes
-                                        <br />
-                                        Tracks user score within session
-                                        <br />
-                                        Can play with the TYGH keys
-                                    </p>
-                                </div>
                             </div>
                         </a>
                         <a className="project-container" rel="noopener noreferrer" href="https://play-ramble.herokuapp.com/" target="_blank">
+                            <p className="project-title">RAMBLE</p>
                             <img className="project-pic" src={rambleGameSS} alt="Avatar" />
                             <div className="project-info">
+                                <div className="project-about-section">
+                                    <br />
+                                    <p className="project blurb">
+                                        2 player Scrabble simulator that can host multiple games
+                                        <br />
+                                        All game state information stored in a MongoDB database and served to each player 
+                                        <br />
+                                    </p>
+                                </div>
                                 <div className="skill-section">
-                                    <p>Tech</p>
+                                    <br />
                                     <ul className="skill-list">
                                         <li className="skill-container">
                                             <img className="skill-icon" src={reactIcon} alt="React JS icon" />
@@ -102,16 +112,6 @@ class Projects extends React.Component {
                                             <p>Git</p>
                                         </li>
                                     </ul>
-                                </div>
-                                <div className="project-about-section">
-                                    <p>About</p>
-                                    <br />
-                                    <p>
-                                        2 player Scrabble Emulator
-                                        <br />
-                                        All game information 
-                                        <br />
-                                    </p>
                                 </div>
                             </div>
                         </a>

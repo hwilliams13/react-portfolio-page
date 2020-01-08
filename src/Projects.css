@@ -61,6 +61,13 @@
     color: #212121;
     width: 450px;
     height: 450px;
+    margin: 10px;
+}
+
+.project-title {
+  text-align: center;
+  color: rgba(255,255,255,.87);
+  background-color: #b71c1c;
 }
 
 .project-pic {
@@ -70,13 +77,14 @@
 
 .project-info {
     width: 450px;
-    height: 150px;
-    display: flex;
-    justify-content: space-between;
+}
+
+.project-about-section {
+  width: 100%;
 }
 
 .skill-section {
-    width: 100px;
+    width: 100%;
 }
 
 .skill-icon {
@@ -86,14 +94,11 @@
 
 .skill-list {
     width: 100%;
-}
-
-.skill-container {
-  /* margin: 0 10px; */
-    width: 100%;
     display: flex;
 }
 
-.project-about-section {
-    width: 350px;
+.skill-container {
+    margin-right: 10px;
+    width: 100%;
+    display: flex;
 }
