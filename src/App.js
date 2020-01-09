@@ -65,7 +65,7 @@ class App extends React.Component {
         </header>
         <main>
             <About 
-                profilePic={profilePic}/>
+                profilePic={profilePic} />
             <Projects />
         </main>
         <footer>

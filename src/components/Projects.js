@@ -36,13 +36,11 @@ class Projects extends React.Component {
                             <div className="project-info">
                                 <div className="project-about-section">
                                     <br />
-                                    <p className="project blurb">
-                                        Simon simulator with 3 dificulty modes
-                                        <br />
-                                        Tracks user score within session
-                                        <br />
-                                        Can play with the TYGH keys
-                                    </p>
+                                    <ul className="project blurb">
+                                        <li>Simon simulator with 3 dificulty modes</li>
+                                        <li>Tracks user score within session</li>
+                                        <li>Can play with the TYGH keys</li>
+                                    </ul>
                                 </div>
                                 <div className="skill-section">
                                     <br />
@@ -63,6 +61,10 @@ class Projects extends React.Component {
                                             <img className="skill-icon" src={git} alt="Git icon" />
                                             <p>Git</p>
                                         </li>
+                                        <li className="skill-container">
+                                            <img className="skill-icon" src={gitHub} alt="GitHub icon" />
+                                            <p>GitHub</p>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>
@@ -73,12 +75,10 @@ class Projects extends React.Component {
                             <div className="project-info">
                                 <div className="project-about-section">
                                     <br />
-                                    <p className="project blurb">
-                                        2 player Scrabble simulator that can host multiple games
-                                        <br />
-                                        All game state information stored in a MongoDB database and served to each player 
-                                        <br />
-                                    </p>
+                                    <ul className="project blurb">
+                                        <li>2 player Scrabble simulator that can host multiple games</li>
+                                        <li>All game state information stored in a MongoDB database and served to each player</li>
+                                    </ul>
                                 </div>
                                 <div className="skill-section">
                                     <br />
@@ -96,6 +96,10 @@ class Projects extends React.Component {
                                             <p>MongoDB</p>
                                         </li>
                                         <li className="skill-container">
+                                            <img className="skill-icon" src={heroku} alt="Heroku icon" />
+                                            <p>Heroku</p>
+                                        </li>
+                                        <li className="skill-container">
                                             <img className="skill-icon" src={html5} alt="HTML5 icon" />
                                             <p>HTML5</p>
                                         </li>
@@ -110,6 +114,10 @@ class Projects extends React.Component {
                                         <li className="skill-container">
                                             <img className="skill-icon" src={git} alt="Git icon" />
                                             <p>Git</p>
+                                        </li>
+                                        <li className="skill-container">
+                                            <img className="skill-icon" src={gitHub} alt="GitHub icon" />
+                                            <p>GitHub</p>
                                         </li>
                                     </ul>
                                 </div>

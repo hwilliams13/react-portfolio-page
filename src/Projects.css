@@ -60,7 +60,7 @@
 .project-container {
     color: #212121;
     width: 450px;
-    height: 450px;
+    height: auto;
     margin: 10px;
 }
 
@@ -87,18 +87,19 @@
     width: 100%;
 }
 
-.skill-icon {
-    height: 24px;
-    width: auto;
-}
-
 .skill-list {
     width: 100%;
     display: flex;
+    flex-wrap: wrap;
 }
 
 .skill-container {
     margin-right: 10px;
-    width: 100%;
     display: flex;
+}
+
+.skill-icon {
+  height: 24px;
+  width: auto;
+  margin-right: 10px;
 }
