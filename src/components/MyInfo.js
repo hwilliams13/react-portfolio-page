@@ -1,40 +1,20 @@
 import React from 'react';
 
-import simonGameSS from '../simon_game_ss_640.png';
-import rambleGameSS from '../ramble_game_ss_640.png';
-
-import css3 from '../icons/css3.svg';
-import firebase from '../icons/firebase.svg';
-import googleCloud from '../icons/googlecloud.svg';
-import netlify from '../icons/netlify.svg';
-import git from '../icons/git.svg';
-import gitHub from '../icons/github.svg';
-import heroku from '../icons/heroku.svg';
-import html5 from '../icons/html5.svg';
-import javaScript from '../icons/javascript.svg';
-import mongoDB from '../icons/mongodb.svg';
-import node from '../icons/node-dot-js.svg';
-import postgreSQL from '../icons/postgresql.svg';
-import python from '../icons/python.svg';
-import reactIcon from '../icons/react.svg';
-
-import '../Projects.css';
-
-class Projects extends React.Component {
+class MyInfo extends React.Component {
 
     render() {
         return (
-            <section id="projects">
+            <section id="my info">
                 <div className="placeholder"></div>
                 <div className="section-body">
                     <div className="section-header">
-                        <p className="section-title">Projects</p>
+                        <p className="section-title">Let me know what I can do for you</p>
                         {/* <p id="blurb-2">From Legos to lines of code, blocks are blocks and I love to build</p> */}
                     </div>
-                    <div id="projects-pic-section">
-                        <a className="project-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
+                    <div id="contact-info-section">
+                        <a className="info-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
                             <p className="project-title">SIMON</p>
-                            <img className="project-pic" src={simonGameSS} alt="Simon Snapshot" />
+                            <img className="info-icon" src={simonGameSS} alt="Simon Snapshot" />
                             <div className="project-info">
                                 <div className="project-about-section">
                                     <br />
@@ -136,4 +116,4 @@ class Projects extends React.Component {
     }
 }
 
-export default Projects;
+export default MyInfo;

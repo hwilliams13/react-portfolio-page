@@ -3,14 +3,17 @@ import React from 'react';
 
 import logo from './Logob71c1c_transbg640.svg';
 import profilePic from './profile_pic.jpg';
+import phone from '../icons/smartphone.svg';
 import linkedIn from './icons/linkedin.svg';
 import gitHub from './icons/github.svg';
 import gMail from './icons/gmail.svg';
+import acrobat from './icons/adobeacrobat.svg';
 import './App.css';
 
 // import MainPage from './components/MainPage.js'; MainPage component not really necessary
 import About from './components/About.js';
 import Projects from './components/Projects.js';
+import MyInfo from './components/MyInfo.js';
 
 class App extends React.Component {
 
@@ -50,14 +53,24 @@ class App extends React.Component {
       //   currentYear={this.state.currentYear}/>
       <div>
         <header>
-            <img id="header-logo" src={logo} alt="logo" />
+            <img id="header-logo" src={logo} alt="logo" onClick={() => {
+              const element = document.getElementById('about');
+              element.scrollIntoView(
+                {
+                  behavior: 'smooth',
+                }
+              );
+            }} />
             <nav>
                 {/* <a href="#about"> going to use scrollIntoView() */}
-                    <div className="nav-button" onClick={this.jumpToSection}>ABOUT</div>
+                    <div className="nav-button" data-id="about" onClick={this.jumpToSection}>ABOUT</div>
                 {/* </a> */}
                 {/* <a href="#projects"> */}
-                    <div className="nav-button" onClick={this.jumpToSection}>PROJECTS</div>
+                    <div className="nav-button" data-id="projects" onClick={this.jumpToSection}>PROJECTS</div>
                 {/* </a> */}
+                <a href="#about">
+                    <div className="nav-button" data-id="my-info" onClick={this.jumpToSection}>MY INFO</div>
+                </a>
                 <a href="#about">
                     <div className="nav-button">THANKS</div>
                 </a>
@@ -67,6 +80,12 @@ class App extends React.Component {
             <About 
                 profilePic={profilePic} />
             <Projects />
+            <MyInfo 
+                phone={phone}
+                gMail={gMail}
+                linkedIn={linkedIn}
+                gitHub={gitHub}
+                acrobat={acrobat} />
         </main>
         <footer>
             <small><span>&copy;</span>{this.state.currentYear} Harold Lee Williams</small>
