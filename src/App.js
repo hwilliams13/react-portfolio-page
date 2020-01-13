@@ -72,9 +72,9 @@ class App extends React.Component {
                 {/* <a href="#about"> */}
                     <div className="nav-button" onClick={this.jumpToSection}>MY INFO</div>
                 {/* </a> */}
-                {/* <a href="#about"> */}
+                {/* <a href="#about"> Will consider adding this section later
                     <div className="nav-button">THANKS</div>
-                {/* </a> */}
+                </a> */}
             </nav>
         </header>
         <main>

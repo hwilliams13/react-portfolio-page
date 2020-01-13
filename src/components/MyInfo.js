@@ -12,14 +12,14 @@ class MyInfo extends React.Component {
                 <div className="placeholder"></div>
                 <div className="section-body">
                     <div className="section-header">
-                        <p className="section-title">Let me know what I can do for you</p>
+                        <p className="section-title">Connect With Me</p>
                         {/* <p id="blurb-2">From Legos to lines of code, blocks are blocks and I love to build</p> */}
                     </div>
                     <div id="contact-info-section">
-                        <a className="info-container" rel="noopener noreferrer" href="#" target="_blank">
+                        <div className="info-container">
                             <img className="info-icon" src={this.props.phone} alt="Phone icon" />
                             <p>502-774-0973</p>
-                        </a>
+                        </div>
                         <a className="info-container" href="mailto: harold.williams.87@gmail.com">
                             <img className="info-icon" src={this.props.gMail} alt="GMail Logo" />
                             <p>harold.williams.87@gmail.com</p>

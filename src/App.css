@@ -45,17 +45,18 @@ header {
   width: 64px;
   height: 64px;
   margin-left: 15px;
+  cursor: pointer;
 }
 
 nav {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   color: #b71c1c;
 }
 
 .nav-button {
-  width: 100px;
-  height: 40px;
+  /* width: 100px;
+  height: 40px; */
   /* border: solid 2px #b71c1c;
   border-radius: 20px; */
   margin: 15px;
