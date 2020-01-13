@@ -3,11 +3,12 @@ import React from 'react';
 
 import logo from './Logob71c1c_transbg640.svg';
 import profilePic from './profile_pic.jpg';
-import phone from '../icons/smartphone.svg';
+
+import phone from './icons/smartphone.svg';
 import linkedIn from './icons/linkedin.svg';
 import gitHub from './icons/github.svg';
 import gMail from './icons/gmail.svg';
-import acrobat from './icons/adobeacrobat.svg';
+import acrobat from './icons/adobeacrobatreader.svg';
 import './App.css';
 
 // import MainPage from './components/MainPage.js'; MainPage component not really necessary
@@ -63,17 +64,17 @@ class App extends React.Component {
             }} />
             <nav>
                 {/* <a href="#about"> going to use scrollIntoView() */}
-                    <div className="nav-button" data-id="about" onClick={this.jumpToSection}>ABOUT</div>
+                    <div className="nav-button" onClick={this.jumpToSection}>ABOUT</div>
                 {/* </a> */}
                 {/* <a href="#projects"> */}
-                    <div className="nav-button" data-id="projects" onClick={this.jumpToSection}>PROJECTS</div>
+                    <div className="nav-button" onClick={this.jumpToSection}>PROJECTS</div>
                 {/* </a> */}
-                <a href="#about">
-                    <div className="nav-button" data-id="my-info" onClick={this.jumpToSection}>MY INFO</div>
-                </a>
-                <a href="#about">
+                {/* <a href="#about"> */}
+                    <div className="nav-button" onClick={this.jumpToSection}>MY INFO</div>
+                {/* </a> */}
+                {/* <a href="#about"> */}
                     <div className="nav-button">THANKS</div>
-                </a>
+                {/* </a> */}
             </nav>
         </header>
         <main>
@@ -97,7 +98,7 @@ class App extends React.Component {
                     <img className="footer-contact-icon" src={gitHub} alt="GitHub Logo" />
                 </a>
                 <a href="mailto: harold.williams.87@gmail.com">
-                    <img className="footer-contact-icon" src={gMail} alt="Gmail Logo" />
+                    <img className="footer-contact-icon" src={gMail} alt="GMail Logo" />
                 </a>
             </div>
         </footer>

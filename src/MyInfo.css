@@ -1,0 +1,11 @@
+.info-container {
+    color: #212121;
+    margin: 10px;
+    display: flex;
+}
+
+.info-icon {
+    height: 32px;
+    width: auto;
+    margin: 0 15px;
+}

@@ -1,5 +1,9 @@
 import React from 'react';
 
+import '../MyInfo.css';
+
+import resume from '../Resume_Harold_Williams_2019_SE.pdf';
+
 class MyInfo extends React.Component {
 
     render() {
@@ -12,102 +16,25 @@ class MyInfo extends React.Component {
                         {/* <p id="blurb-2">From Legos to lines of code, blocks are blocks and I love to build</p> */}
                     </div>
                     <div id="contact-info-section">
-                        <a className="info-container" rel="noopener noreferrer" href="https://objective-albattani-69d5ab.netlify.com/" target="_blank">
-                            <p className="project-title">SIMON</p>
-                            <img className="info-icon" src={simonGameSS} alt="Simon Snapshot" />
-                            <div className="project-info">
-                                <div className="project-about-section">
-                                    <br />
-                                    <ul className="project blurb">
-                                        <li>Simon simulator with 3 dificulty modes</li>
-                                        <li>Tracks user score within session</li>
-                                        <li>Can play with the TYGH keys</li>
-                                    </ul>
-                                </div>
-                                <div className="skill-section">
-                                    <br />
-                                    <ul className="skill-list">
-                                    <li className="skill-container">
-                                            <img className="skill-icon" src={netlify} alt="Netlify icon" />
-                                            <p>Netlify</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={html5} alt="HTML5 icon" />
-                                            <p>HTML5</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={css3} alt="CSS3 icon" />
-                                            <p>CSS3</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={javaScript} alt="Javascript icon" />
-                                            <p>JavaScript</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={git} alt="Git icon" />
-                                            <p>Git</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={gitHub} alt="GitHub icon" />
-                                            <p>GitHub</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <a className="info-container" rel="noopener noreferrer" href="#" target="_blank">
+                            <img className="info-icon" src={this.props.phone} alt="Phone icon" />
+                            <p>502-774-0973</p>
                         </a>
-                        <a className="project-container" rel="noopener noreferrer" href="https://play-ramble.herokuapp.com/" target="_blank">
-                            <p className="project-title">RAMBLE</p>
-                            <img className="project-pic" src={rambleGameSS} alt="Avatar" />
-                            <div className="project-info">
-                                <div className="project-about-section">
-                                    <br />
-                                    <ul className="project blurb">
-                                        <li>2 player Scrabble simulator that can host multiple games</li>
-                                        <li>All game state information stored in a MongoDB database and served to each player</li>
-                                    </ul>
-                                </div>
-                                <div className="skill-section">
-                                    <br />
-                                    <ul className="skill-list">
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={reactIcon} alt="React JS icon" />
-                                            <p>React</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={node} alt="Node JS icon" />
-                                            <p>Node</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={mongoDB} alt="MongoDB icon" />
-                                            <p>MongoDB</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={heroku} alt="Heroku icon" />
-                                            <p>Heroku</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={html5} alt="HTML5 icon" />
-                                            <p>HTML5</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={css3} alt="CSS3 icon" />
-                                            <p>CSS3</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={javaScript} alt="Javascript icon" />
-                                            <p>JavaScript</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={git} alt="Git icon" />
-                                            <p>Git</p>
-                                        </li>
-                                        <li className="skill-container">
-                                            <img className="skill-icon" src={gitHub} alt="GitHub icon" />
-                                            <p>GitHub</p>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <a className="info-container" href="mailto: harold.williams.87@gmail.com">
+                            <img className="info-icon" src={this.props.gMail} alt="GMail Logo" />
+                            <p>harold.williams.87@gmail.com</p>
+                        </a>
+                        <a className="info-container" rel="noopener noreferrer" href="http://www.linkedin.com/in/harold-williams-3b208132" target="_blank">
+                            <img className="info-icon" src={this.props.linkedIn} alt="LinkedIn Logo" />
+                            <p>linkedin.com/in/harold-williams-3b208132</p>
+                        </a>
+                        <a className="info-container" rel="noopener noreferrer" href="https://github.com/hwilliams13" target="_blank">
+                            <img className="info-icon" src={this.props.gitHub} alt="GitHub Logo" />
+                            <p>github.com/hwilliams13</p>
+                        </a>
+                        <a className="info-container" rel="noopener noreferrer" href={resume} target="_blank">
+                            <img className="info-icon" src={this.props.acrobat} alt="Phone icon" />
+                            <p>resume</p>
                         </a>
                     </div>
                 </div>
