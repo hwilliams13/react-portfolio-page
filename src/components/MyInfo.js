@@ -2,7 +2,7 @@ import React from 'react';
 
 import '../MyInfo.css';
 
-import resume from '../Resume_Harold_Williams_2019_SE.pdf';
+import resume from '../Resume_Harold_Williams_2020_SE.pdf';
 
 class MyInfo extends React.Component {
 
